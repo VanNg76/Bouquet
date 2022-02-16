@@ -1,0 +1,212 @@
+{
+    "flowers": [
+        {
+            "id": 1,
+            "name": "Rose",
+            "colorId": 1
+        },
+        {
+            "id": 2,
+            "name": "Sunflower",
+            "colorId": 2
+        },
+        {
+            "id": 3,
+            "name": "Tulip",
+            "colorId": 3
+        },
+        {
+            "id": 4,
+            "name": "Orchid",
+            "colorId": 4
+        },
+        {
+            "id": 5,
+            "name": "Lily",
+            "colorId": 5
+        }
+    ],
+
+    "flowerColors": [
+        {
+            "id": 1,
+            "name": "Red"
+        },
+        {
+            "id": 2,
+            "name": "Orange"
+        },
+        {
+            "id": 3,
+            "name": "White"
+        },
+        {
+            "id": 4,
+            "name": "Purple"
+        },
+        {
+            "id": 5,
+            "name": "Pink"
+        }
+    ],
+
+    "nurseries": [
+        {
+            "id": 1,
+            "name": "West"
+        },
+        {
+            "id": 2,
+            "name": "North"
+        },
+        {
+            "id": 3,
+            "name": "South"
+        },
+        {
+            "id": 4,
+            "name": "East"
+        },
+        {
+            "id": 5,
+            "name": "Center"
+        }
+    ],
+
+    "flowerNurseries": [
+        {
+            "id": 1,
+            "flowerId": 1,
+            "nurseryId": 1
+        },
+        {
+            "id": 2,
+            "flowerId": 5,
+            "nurseryId": 1
+        },
+        {
+            "id": 3,
+            "flowerId": 3,
+            "nurseryId": 2
+        },
+        {
+            "id": 4,
+            "flowerId": 4,
+            "nurseryId": 2
+        },
+        {
+            "id": 5,
+            "flowerId": 3,
+            "nurseryId": 3
+        },
+        {
+            "id": 6,
+            "flowerId": 5,
+            "nurseryId": 3
+        },
+        {
+            "id": 7,
+            "flowerId": 2,
+            "nurseryId": 4
+        },
+        {
+            "id": 8,
+            "flowerId": 4,
+            "nurseryId": 4
+        },
+        {
+            "id": 9,
+            "flowerId": 3,
+            "nurseryId": 5
+        },
+        {
+            "id": 10,
+            "flowerId": 5,
+            "nurseryId": 5
+        }
+    ],
+
+    "distributors": [
+        {
+            "id": 1,
+            "name": "Costco",
+            "address": "3184 Annex ave"
+        },
+        {
+            "id": 2,
+            "name": "TN Distribution",
+            "address": "1234 Harbour view"
+        },
+        {
+            "id": 3,
+            "name": "Flower Wholesales",
+            "address": "576 Galatin pike"
+        }
+    ],
+
+    "distributorNurseries": [
+        {
+            "id": 1,
+            "nurseryId": 1,
+            "distributorId": 1
+        },
+        {
+            "id": 2,
+            "nurseryId": 5,
+            "distributorId": 1
+        },
+        {
+            "id": 3,
+            "nurseryId": 2,
+            "distributorId": 2
+        },
+        {
+            "id": 4,
+            "nurseryId": 4,
+            "distributorId": 2
+        },
+        {
+            "id": 5,
+            "nurseryId": 3,
+            "distributorId": 3
+        },
+        {
+            "id": 6,
+            "nurseryId": 2,
+            "distributorId": 3
+        }
+    ],
+
+    "retailers": [
+        {
+            "id": 1,
+            "name": "Publix",
+            "address": "100 Cummings Rd, Nasville",
+            "distributorId" : 1
+        },
+        {
+            "id": 2,
+            "name": "Walmart",
+            "address": "200 WhiteBridge Rd, Galatin",
+            "distributorId" : 2
+        },
+        {
+            "id": 3,
+            "name": "Kroger",
+            "address": "300 WestEnd blvd, Franklin",
+            "distributorId" : 3
+        },
+        {
+            "id": 4,
+            "name": "Walgreen",
+            "address": "400 Charlotte Pike, GA",
+            "distributorId" : 2
+        },
+        {
+            "id": 5,
+            "name": "Sunny R",
+            "address": "500 Hamilton, IL",
+            "distributorId" : 1
+        }
+    ]
+}
